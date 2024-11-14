@@ -1,0 +1,27 @@
+/** @format */
+
+.partner-program {
+  max-width: 75vw;
+  margin: 5rem auto;
+  display: flex;
+}
+.partner-program img {
+  width: 400px;
+  height: 100%;
+}
+.right {
+  margin-left: 5rem;
+}
+.right h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.right p {
+  font-size: 17px;
+}
+.Blue {
+  background-color: #1d4ed8;
+  color: white;
+  border-radius: 4px;
+  height: 44px;
+}

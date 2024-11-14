@@ -1,0 +1,45 @@
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 6rem 14rem;
+    background-color: #eff0f1; /* Light gray background */
+  }
+  
+  .step-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .step-icon {
+    font-size: 1.5rem;
+    color: #333; /* Dark color for the arrow icon */
+    margin-bottom: 1rem;
+  }
+  
+  .step-number {
+    display: inline-block;
+    font-size: 0.9rem;
+    color: #555;
+    background-color: #f3f4f6;
+    padding: 0.3rem 0.6rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+  }
+  
+  .step-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0.5rem 0;
+  }
+  
+  .step-description {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 0.5rem;
+  }
+  
