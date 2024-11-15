@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+
 import "./StepsGrid.css";
 
 const StepCard = ({ stepNumber, title, description }) => (

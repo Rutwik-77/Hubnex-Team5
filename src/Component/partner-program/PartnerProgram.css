@@ -25,3 +25,70 @@
   border-radius: 4px;
   height: 44px;
 }
+
+
+
+@media (max-width: 1024px) and (min-width: 601px) {
+  .partner-program {
+    flex-direction: column; /* Stack elements vertically for tablets */
+    align-items: center; /* Center-align items */
+    text-align: center; /* Center-align text */
+  }
+
+  .partner-program img {
+    max-width: 300px; /* Reduce the image size for tablets */
+    margin-bottom: 1rem; /* Add spacing below the image */
+  }
+
+  .right {
+    margin-left: 0; /* Remove left margin for smaller screens */
+    width: 90%; /* Adjust width to fit tablet view */
+  }
+
+  .right h1 {
+    font-size: 2rem; /* Keep font size consistent for readability */
+  }
+
+  .right p {
+    font-size: 16px; /* Slightly smaller font size for tablets */
+  }
+
+  .Blue {
+    width: 100%; /* Button takes full width */
+    max-width: 250px; /* Set a max width for the button */
+  }
+}
+
+/* Media Query for Mobile (up to 600px) */
+@media (max-width: 600px) {
+  .partner-program {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+  }
+
+  .partner-program img {
+    max-width: 100%; 
+    margin-bottom: 1rem;
+  }
+
+  .right {
+    margin-left: 0; 
+    width: 90%; 
+  }
+
+  .right h1 {
+    font-size: 1.6rem !important;
+    text-align: left;
+    margin-bottom: 1rem !important;
+  }
+
+  .right p {
+    font-size: 16px;
+  }
+
+  .Blue {
+    width: 70%; 
+    max-width: 300px; 
+  }
+}

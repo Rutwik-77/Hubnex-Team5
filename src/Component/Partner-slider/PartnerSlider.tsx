@@ -32,66 +32,64 @@ const PartnerSlider: React.FC = () => {
 
   return (
     <>
-    <div className='slider-main-heading'>
+      <div className='slider-main-heading'>
         <p>3940+ Happy Hubnex Labs Users</p>
         <h1>Driving results for leaders across the globe</h1>
       </div>
-    <div
-      className='slider-container'
-      ref={sliderRef}
-      onMouseDown={handleMouseDown}
-      onMouseLeave={handleMouseLeave}
-      onMouseUp={handleMouseUp}
-      onMouseMove={handleMouseMove}
-    >
-      
-      <div className='slider-item'>
-        <div className='left'>
-          <img src='/public/slack_BG.png' alt='' />
+      <div
+        className='slider-container'
+        ref={sliderRef}
+        onMouseDown={handleMouseDown}
+        onMouseLeave={handleMouseLeave}
+        onMouseUp={handleMouseUp}
+        onMouseMove={handleMouseMove}
+      >
+        <div className='slider-item'>
+          <div className='left'>
+            <img src='/public/slack_BG.png' alt='' />
+          </div>
+          <div className='right'>
+            <h1>Driving results for leaders across the globe</h1>
+            <p>
+              “With Landingfolio, the design team can now build design which
+              identifies employees’ career aspirations and goals and from which
+              we approach managers and check to see what is happening.”
+            </p>
+            <h1>Slack</h1>
+            <p>Product Company</p>
+          </div>
         </div>
-        <div className='right'>
-          <h1>Driving results for leaders across the globe</h1>
-          <p>
-            “With Landingfolio, the design team can now build design which
-            identifies employees’ career aspirations and goals and from which we
-            approach managers and check to see what is happening.”
-          </p>
-          <h1>Slack</h1>
-          <p>Product Company</p>
+        <div className='slider-item'>
+          <div className='left'>
+            <img src='/public/facebookimg.png' alt='' />
+          </div>
+          <div className='right'>
+            <h1>Driving results for leaders across the globe</h1>
+            <p>
+              “With Landingfolio, the design team can now build design which
+              identifies employees’ career aspirations and goals and from which
+              we approach managers and check to see what is happening.”
+            </p>
+            <h1>Facebook</h1>
+            <p>Product Company</p>
+          </div>
+        </div>
+        <div className='slider-item'>
+          <div className='left'>
+            <img src='/public/googleimg.png' alt='' />
+          </div>
+          <div className='right'>
+            <h1>Driving results for leaders across the globe</h1>
+            <p>
+              “With Landingfolio, the design team can now build design which
+              identifies employees’ career aspirations and goals and from which
+              we approach managers and check to see what is happening.”
+            </p>
+            <h1>Google</h1>
+            <p>Product Company</p>
+          </div>
         </div>
       </div>
-      <div className='slider-item'>
-        <div className='left'>
-          <img src='/public/facebookimg.png' alt='' />
-        </div>
-        <div className='right'>
-          <h1>Driving results for leaders across the globe</h1>
-          <p>
-            “With Landingfolio, the design team can now build design which
-            identifies employees’ career aspirations and goals and from which we
-            approach managers and check to see what is happening.”
-          </p>
-          <h1>Facebook</h1>
-          <p>Product Company</p>
-        </div>
-      </div>
-      <div className='slider-item'>
-        <div className='left'>
-          <img src='/public/googleimg.png' alt='' />
-        </div>
-        <div className='right'>
-          <h1>Driving results for leaders across the globe</h1>
-          <p>
-            “With Landingfolio, the design team can now build design which
-            identifies employees’ career aspirations and goals and from which we
-            approach managers and check to see what is happening.”
-          </p>
-          <h1>Google</h1>
-          <p>Product Company</p>
-        </div>
-      </div>
-      
-    </div>
     </>
   );
 };

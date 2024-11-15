@@ -43,3 +43,19 @@
     margin-top: 0.5rem;
   }
   
+
+  /* Custom CSS for responsive design */
+  @media screen and (max-width: 800px) {
+    .steps-grid {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     max-width: 100vw;
+     margin: auto !important;
+    }
+    .step-card{
+      max-width: 80vw !important;
+      margin-right: 3rem;
+    }
+  }

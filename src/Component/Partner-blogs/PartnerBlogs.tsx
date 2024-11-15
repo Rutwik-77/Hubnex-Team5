@@ -12,7 +12,7 @@ const PartnerBlogs = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 3,
       };
   const data = [
     {
@@ -62,7 +62,7 @@ const PartnerBlogs = () => {
         <FaArrowRightLong />
         </button>
       </div>
-      <div className='w-3/4 m-auto'>
+      <div className='w-3/4 m-auto main-bg-card'>
         <div className='mt-20'>
         <Slider {...settings}>
           {data.map((d) => (

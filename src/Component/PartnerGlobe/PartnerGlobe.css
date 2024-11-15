@@ -1,0 +1,108 @@
+.globe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 8rem;
+    /* background-color: rgb(187, 44, 44); */
+  }
+  
+  .text-content {
+    max-width: 50%;
+  }
+  
+  .text-content h1 {
+    line-height: 60px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 1rem;
+  }
+  
+  .text-content p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  .stats .number {
+    display: block;
+    font-size: 3rem;
+    color: #6e2cda; /* Use your --dark-color variable if you want */
+    font-weight: bold;
+  }
+  
+  .featured {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .featured span {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .logos img {
+    width: 350px;
+    height: auto;
+    cursor: pointer;
+  }
+  .globe-image {
+    /* background-color: #2563EA; */
+    margin-bottom: 7rem;
+  }
+  
+  .globe-image img {
+    width: 400px;
+    max-width: 100%;
+  }
+  .number-ticker {
+    color: #6e2cda;
+  }
+  
+
+
+  @media (max-width: 900px) {
+    .globe {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center-align content */
+      padding: 2rem; /* Reduce padding */
+    }
+  
+    .globe-image {
+      margin-top: 2rem;
+      order: -1; /* Place the globe image at the top */
+      margin-bottom: 4rem; /* Add spacing below the image */
+    }
+  
+    .text-content {
+      text-align: center; /* Center-align text for smaller screens */
+    }
+  
+    .stats {
+      flex-direction: column; /* Stack stats vertically */
+      gap: 1rem; /* Reduce spacing */
+    }
+  
+    .featured {
+      flex-direction: column; /* Stack featured text and logos */
+      align-items: center;
+      gap: 1rem; /* Add spacing between elements */
+    }
+  
+    .logos img {
+      width: 200px; /* Scale logos for smaller screens */
+    }
+  }
+  

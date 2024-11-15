@@ -1,6 +1,5 @@
 /** @format */
 
-import React from "react";
 import "./PartnerContact.css";
 import { FaArrowRightLong } from "react-icons/fa6";
 const PartnerContact = () => {
