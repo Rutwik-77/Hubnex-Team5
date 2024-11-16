@@ -1,0 +1,71 @@
+.about-hero-content h1{
+    max-width: 70vw;
+    font-size: 35px;
+    margin: auto;
+}
+.Two-btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 25px;
+}
+.Grey{
+    border: 2px solid black;
+    
+}
+
+.Mystats {
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  
+  .Mystat-item {
+    margin-top: 1rem;
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 17vw!important;
+  }
+  
+  .Myavatars img {
+    width: 140px;
+    height: 42px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
+  
+  .Mystat-text,
+  .Myrating {
+    max-width: 17vw!important;
+    /* background-color: #485aff; */
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #555;
+    margin-left: 10px;
+  }
+  .My-rating {
+    margin-top: -1rem;
+    max-width: 17vw;
+    min-height: 15vh!important;
+  }
+  
+  .Mystat-number {
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+  }
+  
+  .Mystars {
+    font-size: 30px;
+    color: #485aff;
+    margin-bottom: 4rem;
+    margin-right: 4rem;
+  }
+  .Myrtext{
+    /* background-color: aqua; */
+    max-width: 17vw;
+  }

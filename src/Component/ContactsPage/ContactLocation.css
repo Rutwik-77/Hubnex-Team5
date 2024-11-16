@@ -31,6 +31,14 @@
     max-width: 600px;
     margin: 1rem auto;
 }
+.location-main h1{
+font-size: 30px;
+text-align: left;
+margin-bottom: 1rem;
+}
+.location-cities h1{
+  font-size: 20px;
+}
 .location-cities h1:first-child{
     color: #6366F1;
     text-decoration: underline;

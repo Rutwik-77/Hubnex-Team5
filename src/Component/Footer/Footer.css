@@ -46,15 +46,18 @@
 }
 
 .footer-section p {
-  font-weight: 100;
+  font-weight: 500;
+
   font-size: 19px;
-  color: #555;
+  color: #525151;
   line-height: 1.6;
   margin-bottom: 20px;
 }
 
 /* Links Styling */
 .footer-section.links ul {
+  color: #000000;
+
   list-style: none;
   padding: 0;
 }
@@ -66,11 +69,12 @@
 
 .footer-section.links ul li {
   font-size: 16px;
-  color: #333;
+  color: #000000;
+
   margin-bottom: 10px;
   cursor: pointer;
   transition: color 0.3s;
-  font-weight: lighter;
+  font-weight: 500;
 }
 
 .footer-section.links ul li:hover {
@@ -100,7 +104,7 @@
   text-align: center;
   margin-top: 30px;
   font-size: 12px;
-  color: #999;
+  color: #7d7b7b;
   border-top: 1px solid #e0e0e0;
   padding-top: 20px;
 }

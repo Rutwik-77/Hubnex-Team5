@@ -1,0 +1,37 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.container-text {
+    width: 700px;
+    height: 320px;
+    padding: 20px;
+    text-align: start;
+}
+.container-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+}
+.container-text p {
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    margin-top: 20px;
+}
+.h3 {
+    color: #1e40af;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+    
+}
+.h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+    margin-top: 20px;
+}

@@ -16,7 +16,6 @@ margin-top: 7rem;
 
 
 .slider-container {
-  background-color: aliceblue;
     display: flex;
     overflow-x: auto; 
     max-width: 70vw;
@@ -47,12 +46,13 @@ margin-top: 7rem;
 
   
   .slider-item img {
-    width: 700px; /* Adjusted to better fit inside the container */
+    width: 700px;
     height: auto;
   }
   .right h1{
     margin-bottom: -1rem;
     font-size: 36px;
+    text-align: left;
   }
   
 

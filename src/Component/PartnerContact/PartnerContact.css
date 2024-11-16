@@ -36,6 +36,7 @@
   padding: 2rem 0;
 }
 .Contact-lower h1 {
+  text-align: left;
   font-size: 35px;
   font-weight: bold;
 }

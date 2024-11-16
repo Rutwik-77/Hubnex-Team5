@@ -1,4 +1,4 @@
-import React from 'react'
+
 import NumberTicker from "@/components/ui/number-ticker";
 import './PartnerGlobe.css'
 const PartnerGlobe = () => {
