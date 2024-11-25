@@ -7,7 +7,8 @@ const PartnerHero = () => {
   return (
     <section className='partner-hero'>
       <div className='nagivation'>
-        <a href='#'>Home</a> &gt; <span>Partner Page</span>
+        <a href='#'>Home </a>
+        <span className='seperator'></span> &gt; <span className='seperator'> Partner Page</span>
       </div>
 
       <div className='partner-content'>
@@ -35,15 +36,20 @@ const PartnerHero = () => {
                 <span className='stat-number'>
                   <NumberTicker value={910} />+
                 </span>
-                <span className="rtext1">Companies are using & it’s growing everyday</span>
+                <span className='rtext1'>
+                  Companies are using & it’s growing everyday
+                </span>
               </div>
             </div>
             <div className='stat-item'>
               <div className='rating My-rating'>
-                <span className='stat-number'>4.5/5<span className='stars'>★★★★★</span></span>
-                <span className="rtext" >Trusted by the top companies worldwide</span>
+                <span className='stat-number'>
+                  4.5/5<span className='stars'>★★★★★</span>
+                </span>
+                <span className='rtext'>
+                  Trusted by the top companies worldwide
+                </span>
               </div>
-           
             </div>
           </div>
         </div>

@@ -7,7 +7,6 @@ const PartnerChoose = () => {
     <section className='partner-choose'>
       <div className='background-grid'>
         <h1>Why Choose Us?</h1>
-
         <RetroGrid />
       </div>
       <div className='cards-container'>

@@ -17,7 +17,7 @@ import PartnerGlobe from "@/Component/PartnerGlobe/PartnerGlobe";
 const Partner = () => {
   return (
     <>
-      <PartnerHero/>
+      <PartnerHero />
       <section className='partner-technologies'>
         <div className='partner-technologies-container'>
           <h2 className='technologies-title'>
@@ -28,10 +28,10 @@ const Partner = () => {
           </div>
         </div>
       </section>
-      <PartnerChoose/>
-      <PartnerGlobe/>
+      <PartnerChoose />
+      <PartnerGlobe />
       <section className='positives'>
-        <StepsGrid/>
+        <StepsGrid />
       </section>
       <section className='program'>
         <PartnerProgram />
