@@ -48,7 +48,7 @@ const Contact = () => {
 
         <div className='form-group'>
           <label htmlFor='reason'>Reason for Contact</label>
-          <textarea id='reason' name='reason' rows='9' required></textarea>
+          <textarea id='reason' name='reason' rows = {9} required></textarea>
         </div>
 
         <button type='submit' className='submit-btn'>

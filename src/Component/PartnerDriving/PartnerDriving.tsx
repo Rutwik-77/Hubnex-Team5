@@ -1,7 +1,4 @@
 /** @format */
-
-import React from "react";
-
 const PartnerDriving = () => {
   return (
     <section className='main-driving'>

@@ -63,27 +63,24 @@ const ReviewCard = ({ img, name }: { img: string; name: string }) => {
 
 function PartnerMarquee() {
   return (
-    <div className="control md:shadow-xl overflow-hidden relative rounded-lg">
+    <div className='control md:shadow-xl overflow-hidden relative rounded-2xl'>
       {/* Marquee content with shadow */}
-      <Marquee pauseOnHover className="[--duration:20s] first-iterate">
+      <Marquee pauseOnHover className='[--duration:20s] first-iterate'>
         {firstRow.map((review) => (
           <ReviewCard key={review.name} {...review} />
         ))}
       </Marquee>
-      <Marquee reverse pauseOnHover className="[--duration:10s] second-iterate">
+      <Marquee reverse pauseOnHover className='[--duration:10s] second-iterate'>
         {secondRow.map((review) => (
           <ReviewCard key={review.name} {...review} />
         ))}
       </Marquee>
 
       {/* Shadow effect on the left and right */}
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>
-//       <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-background"></div>
+      <div className='absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-blue-600 dark:from-blue-900'></div>
+      <div className='pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-blue-600 dark:from-blue-900'></div>
     </div>
   );
 }
 
 export default PartnerMarquee;
-
-
-

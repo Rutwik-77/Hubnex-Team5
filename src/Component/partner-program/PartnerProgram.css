@@ -30,32 +30,32 @@
 
 @media (max-width: 1024px) and (min-width: 601px) {
   .partner-program {
-    flex-direction: column; /* Stack elements vertically for tablets */
-    align-items: center; /* Center-align items */
-    text-align: center; /* Center-align text */
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
   }
 
   .partner-program img {
-    max-width: 300px; /* Reduce the image size for tablets */
-    margin-bottom: 1rem; /* Add spacing below the image */
+    max-width: 300px;
+    margin-bottom: 1rem; 
   }
 
   .right {
-    margin-left: 0; /* Remove left margin for smaller screens */
-    width: 90%; /* Adjust width to fit tablet view */
+    margin-left: 0; 
+    width: 90%; 
   }
 
   .right h1 {
-    font-size: 2rem; /* Keep font size consistent for readability */
+    font-size: 2rem; 
   }
 
   .right p {
-    font-size: 16px; /* Slightly smaller font size for tablets */
+    font-size: 16px; 
   }
 
   .Blue {
-    width: 100%; /* Button takes full width */
-    max-width: 250px; /* Set a max width for the button */
+    width: 100%; 
+    max-width: 250px;
   }
 }
 
@@ -73,17 +73,20 @@
   }
 
   .right {
+    text-align: left;
     margin-left: 0; 
     width: 90%; 
   }
 
   .right h1 {
     font-size: 1.6rem !important;
-    text-align: left;
+    text-align: left !important;
     margin-bottom: 1rem !important;
+   
   }
 
   .right p {
+    text-align: left !important;
     font-size: 16px;
   }
 

@@ -13,7 +13,8 @@ const PartnerHero = () => {
 
       <div className='partner-content'>
         <div className='text-content'>
-          <SparklesText text={<h1>Join Your Partner Network</h1>} />
+          {/* <SparklesText text={<h1>Join Your Partner Network</h1>} /> */}
+          <SparklesText text="Join Your Partner Network" className="text" />
 
           <p>
             Clarity gives you the blocks & components you need to create a truly
