@@ -8,7 +8,7 @@ const PartnerNewsletter = () => {
       <div className='newsletter-header'>
         <div className='newsletter-header-left'>
           <div className='inner-left'>
-            <img src='\public\icons8-crown-48 1.png' alt='' />
+            <img src='/icons8-crown-48 1.png' alt='' />
           </div>
           <div className='inner-right'>
             <p>Work Better, together</p>

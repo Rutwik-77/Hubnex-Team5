@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className='footer'>
       <div className='footer-content'>
         <div className='footer-section about'>
-          <img src='\public\footer.png' alt='' />
+          <img src='/footer.png' alt='' />
           <h2>About Hubnex Labs</h2>
           <p>
             We are a leading IT consultancy with expertise in innovative

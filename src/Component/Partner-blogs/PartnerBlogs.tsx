@@ -18,37 +18,37 @@ const PartnerBlogs = () => {
     {
       area: `Finance`,
       msg: `Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum`,
-      img: `/public/blogs1.png`,
+      img: `/blogs1.png`,
       heading: `What is Ad Exposure and Why It Matters?`,
     },
     {
       area: `Business`,
       msg: `Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum`,
-      img: `/public/blogs2.png`,
+      img: `/blogs2.png`,
       heading: `What is Ad Exposure and Why It Matters?`,
     },
     {
       area: `Marketing`,
       msg: `Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum`,
-      img: `/public/blogs1.png`,
+      img: `/blogs1.png`,
       heading: `What is Ad Exposure and Why It Matters?`,
     },
     {
       area: `Finance`,
       msg: `Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum`,
-      img: `/public/blogs2.png`,
+      img: `/blogs2.png`,
       heading: `What is Ad Exposure and Why It Matters?`,
     },
     {
       area: `Business`,
       msg: `Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum`,
-      img: `/public/blogs1.png`,
+      img: `/blogs1.png`,
       heading: `What is Ad Exposure and Why It Matters?`,
     },
     {
       area: `Marketing`,
       msg: `Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum`,
-      img: `/public/blogs1.png`,
+      img: `/blogs1.png`,
       heading: `What is Ad Exposure and Why It Matters?`,
     },
   ];

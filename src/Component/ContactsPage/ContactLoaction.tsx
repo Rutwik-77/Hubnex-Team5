@@ -4,10 +4,10 @@ import { FaMessage } from "react-icons/fa6";
 import './ContactLocation.css';
 const ContactLoaction = () => {
   const Data = [
-    { img: "/public/India.png", name: "INDIA" },
-    { img: "/public/icons8-us-48 1.png", name: "USA" },
-    { img: "/public/icons8-uae-48 (1) 1.png", name: "UAE" },
-    { img: "/public/icons8-indonesia-48 1.png", name: "INDO" },
+    { img: "/India.png", name: "INDIA" },
+    { img: "/icons8-us-48 1.png", name: "USA" },
+    { img: "/icons8-uae-48 (1) 1.png", name: "UAE" },
+    { img: "/icons8-indonesia-48 1.png", name: "INDO" },
   ];
   return (
     <div className='contact-location'>
@@ -45,7 +45,7 @@ const ContactLoaction = () => {
         <button className="blue">Contact Us</button>
       </div>
       <div className='location-img-right'>
-        <img src='\public\Contact-bg.png' alt='' />
+        <img src='\Contact-bg.png' alt='' />
       </div>
     </div>
   );

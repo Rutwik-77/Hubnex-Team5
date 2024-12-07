@@ -12,7 +12,7 @@ const PartnerChoose = () => {
       <div className='cards-container'>
         <div className='card'>
           <div className='image-placeholder'>
-            <img src='\public\image 30.png' alt='' />
+            <img src='\image 30.png' alt='' />
           </div>
           <div className='advance'>
             <h1 className='card-heading'>Fast MVP Development</h1>
@@ -26,7 +26,7 @@ const PartnerChoose = () => {
 
         <div className='card'>
           <div className='image-placeholder'>
-            <img src='\public\image 30 (1).png' alt='' />
+            <img src='\image 30 (1).png' alt='' />
           </div>
           <div className='advance'>
             <h1 className='card-heading'>Maintenance & Support</h1>
@@ -40,7 +40,7 @@ const PartnerChoose = () => {
 
         <div className='card'>
           <div className='image-placeholder'>
-            <img src='\public\image 30 (2).png' alt='' />
+            <img src='\image 30 (2).png' alt='' />
           </div>
           <div className='advance'>
             <h1 className='card-heading'>Smooth ERP Intergration</h1>

@@ -5,7 +5,7 @@ import "./PartnerProgram.css";
 const PartnerProgram = () => {
   return (
     <section className='partner-program'>
-      <img src='\public\Partner-program.png' alt='' />
+      <img src='\Partner-program.png' alt='' />
       <div className='right'>
         <h1>Join our Preferred Partners Programme</h1>
         <p>

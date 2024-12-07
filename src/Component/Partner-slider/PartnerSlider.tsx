@@ -46,7 +46,7 @@ const PartnerSlider: React.FC = () => {
       >
         <div className='slider-item'>
           <div className='left'>
-            <img src='/public/slack_BG.png' alt='' />
+            <img src='/slack_BG.png' alt='' />
           </div>
           <div className='right'>
             <h1>Driving results for leaders across the globe</h1>
@@ -61,7 +61,7 @@ const PartnerSlider: React.FC = () => {
         </div>
         <div className='slider-item'>
           <div className='left'>
-            <img src='/public/facebookimg.png' alt='' />
+            <img src='/facebookimg.png' alt='' />
           </div>
           <div className='right'>
             <h1>Driving results for leaders across the globe</h1>
@@ -76,7 +76,7 @@ const PartnerSlider: React.FC = () => {
         </div>
         <div className='slider-item'>
           <div className='left'>
-            <img src='/public/googleimg.png' alt='' />
+            <img src='/googleimg.png' alt='' />
           </div>
           <div className='right'>
             <h1>Driving results for leaders across the globe</h1>
