@@ -22,7 +22,7 @@ const Header = () => {
         <div className='horizontal-line'></div>
         <div className='header-bottom'>
           <div className='header-bottom-logo'>
-            <img src='public\Hubnex Labs left align.png' alt='' />
+            <img src='/Hubnex Labs left align.png' alt='' />
           </div>
           <div className='header-bottom-links'>
             <a href='#'>

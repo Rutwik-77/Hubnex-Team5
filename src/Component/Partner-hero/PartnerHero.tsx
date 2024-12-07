@@ -31,7 +31,7 @@ const PartnerHero = () => {
           <div className='stats'>
             <div className='stat-item'>
               <div className='avatars'>
-                <img src='\public\Image.png' alt='User 1' />
+                <img src='/Image.png' alt='User 1' />
               </div>
               <div className='stat-text'>
                 <span className='stat-number'>
@@ -56,7 +56,7 @@ const PartnerHero = () => {
         </div>
 
         <div className='image-content'>
-          <img src='\public\partner-hero-img.png' alt='Partner network' />
+          <img src='/partner-hero-img.png' alt='Partner network' />
         </div>
       </div>
     </section>

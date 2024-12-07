@@ -290,13 +290,12 @@ p {
   .image-content {
     width: 80vw;
     margin: auto;
-    /* background-color: #485aff; */
   }
 
   .image-content img {
     width: 300px !important;
     height: 200px !important;
-    margin-top: -2rem;
+    margin-top: -2!important;
     /* margin-left: 1rem; */
   }
 }
