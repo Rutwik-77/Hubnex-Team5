@@ -225,7 +225,11 @@ p {
     padding: 1rem;
     margin-top: -2rem;
   }
-  .text-content h1 {
+  .text-content{
+    /* background-color: aqua; */
+    margin-right: 2rem;
+  }
+  .text-content .text {
     width: 80vw;
     text-align: left !important;
     font-size: 35px !important;
